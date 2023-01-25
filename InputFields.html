@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="adjust">
+            <label class="div-label">Name Input Type:</label>
+            <input type="text" placeholder="Name" name="name" id="name" style="width: 250px;"/>
+        </div>
+        <div class="adjust">
+            <label class="div-label">Password Input Type:</label>
+            <input type="password" placeholder="Password" name="password" id="password" style="width: 250px;"/>
+        </div>
+        <div class="adjust">
+            <label class="div-label">Email Input Type:</label>
+            <input type="email" placeholder="Email" name="email" id="email" style="width: 250px;"/>
+        </div>
+        <div class="adjust">
+            <label class="div-label">Number Input Type:</label>
+            <input type="number" placeholder="Number" name="number" id="number" style="width: 250px;"/>
+        </div>
+        <div class="adjust">
+            <label class="div-label">Mobile Input Type:</label>
+            <input type="text" placeholder="Mobile" name="mobile" id="mobile" style="width: 250px;"/>
+        </div>
+        <div class="adjust">
+            <label class="div-label">Search Input Type:</label>
+            <input type="text" placeholder="Search" name="search" id="search" style="width: 250px;"/>
+        </div>
+        <div class="adjust">
+            <label class="div-label">Date and Time Type:</label>
+            <input type="text" placeholder="Date Time" name="startdate" id="startdate" style="width: 250px;"/>
+        </div>
+        <div class="adjust">
+            <label class="div-label">Salary Type:</label>
+            <input type="range" placeholder="salary" name="salary" id="search" style="width: 250px;"/>
+            <output>400000</output>
+        </div>
+        <div>
+            <div class="button-submit-div">
+                <button class="button-submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 37%;
+        border: 1px solid black;
+    }
+    .adjust{
+        padding: 10px;
+        width: 72%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .div-label{
+        width: 36%;
+        display: flex;
+        justify-self: flex-end;
+        padding-right: 12px;
+    }
+    .button-submit{
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 60px;
+        height: 30px;
+        color: white;
+        background: blue;
+    }
+    .button-submit-div{
+        padding: 9px;
+    }
+</style>
+</html>
